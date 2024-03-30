@@ -30,7 +30,7 @@ set(TESTS_ENABLED OFF)
 
 if("cuda" IN_LIST FEATURES)
     set(CUDA_ENABLED ON)
-    set(CUDA_ARCHITECTURES "native")
+    set(CUDA_ARCHITECTURES 75)
 endif()
 
 if("cuda-redist" IN_LIST FEATURES)
