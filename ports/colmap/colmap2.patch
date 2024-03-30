@@ -6,9 +6,9 @@ index 3848c45..3fbd889 100644
  
  #pragma once
  
-+
-+#define GLOG_EXPORT
-+
++#ifndef GLOG_USE_GLOG_EXPORT
++#  define GLOG_USE_GLOG_EXPORT
++#endif
  #include "colmap/util/string.h"
  
  #include <iostream>

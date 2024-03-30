@@ -9,6 +9,7 @@ vcpkg_from_github(
     PATCHES
         colmap.patch
         colmap2.patch
+        colmap3.patch
 )
 
 if (NOT TRIPLET_SYSTEM_ARCH STREQUAL "x64" AND ("cuda" IN_LIST FEATURES OR "cuda-redist" IN_LIST FEATURES))

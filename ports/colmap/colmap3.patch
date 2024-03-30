@@ -1,0 +1,14 @@
+diff --git a/src/colmap/retrieval/visual_index.h b/src/colmap/retrieval/visual_index.h
+index 3848c45..3fbd889 100644
+--- a/src/colmap/retrieval/visual_index.h
++++ b/src/colmap/retrieval/visual_index.h
+@@ -29,6 +29,9 @@
+ 
+ #pragma once
+ 
++#ifndef GLOG_USE_GLOG_EXPORT
++#  define GLOG_USE_GLOG_EXPORT
++#endif
+ #include "colmap/feature/types.h"
+ #include "colmap/math/math.h"
+ #include "colmap/retrieval/inverted_file.h"
