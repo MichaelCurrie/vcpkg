@@ -1,0 +1,14 @@
+diff --git a/src/colmap/util/testing.cc b/src/colmap/util/testing.cc
+index 3848c45..3fbd889 100644
+--- a/src/colmap/util/testing.cc
++++ b/src/colmap/util/testing.cc
+@@ -29,6 +29,9 @@
+ 
+ #include "colmap/util/testing.h"
+ 
++#include "colmap/util/logging.h"
++
++
+ #include <mutex>
+ #include <set>
+ 

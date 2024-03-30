@@ -1,0 +1,14 @@
+diff --git a/src/colmap/util/logging.h b/src/colmap/util/logging.h
+index 3848c45..3fbd889 100644
+--- a/src/colmap/util/logging.h
++++ b/src/colmap/util/logging.h
+@@ -29,6 +29,9 @@
+ 
+ #pragma once
+ 
++
++#define GLOG_EXPORT
++
+ #include "colmap/util/string.h"
+ 
+ #include <iostream>
